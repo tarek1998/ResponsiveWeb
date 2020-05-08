@@ -1,0 +1,1867 @@
+@charset "utf-8";
+@import url('https//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: soft red;
+}
+ul{
+    list-style:none;
+    
+}
+
+a{
+    text-decoration:none;
+}
+*{
+    box-sizing: border-box; 
+}
+.main{
+  background-attachment: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/iph.jpg);
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.logo{
+    height:80px;
+    width:120px;
+}
+.menu{
+    display:flex;
+}
+.menu a{
+    color:white;
+    margin:0px 16px;
+    font-family:myriad pro;
+    font-size:600;
+}
+.sign-in{
+width:100px ;
+height:30px ;
+border-radius:10px ;
+border:1px solid grey;
+color: dimgrey;
+justify-content: center;
+    font-family: calibri;
+    font-weight: 700;
+    align-items:center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.sign-in:hover{
+    background-color: orangered;
+    color:solid red;
+    transition:all ease 0.3s;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 60px;
+    display: flex;
+}
+.user{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position: absolute;
+    background-color: crimson;
+    left: 20px;
+    bottom: 20px;
+}* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:yellow;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.s-heading{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration-color: red;
+}
+.s-heading p:nth-child(1) {
+  font-family: sans-serif;
+  font: inherit;
+  font-weight: bold;
+  color: red;
+  width: 40%;
+  font-size: 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.s-heading p:nth-child(2) {
+  font-family: fantasy;
+  width: 40%;
+  font-weight: bold;
+  color: darkred;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+
+}
+.s-heading{
+  margin: 30px 0px 30px 0px;
+}
+.text01 p{
+  font-family:sans-serif ;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+p{
+  font-family: fantasy;
+  font:inherit;
+  color:white;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}*
+.s-container{
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.s-icon{
+  margin:10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #313131;
+}
+.a-button{
+  width: 120px;
+  height: 35px;
+  margin:2px;
+  padding:10px;
+  border: none;
+  outline:none;
+  border-radius:20px;
+  color:rgb(12, 1, 1);
+  border:1px solid #4530c3;
+}
+.level{
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.level li{
+  margin: 20px 0;
+}
+.bar{
+  color: #4530c3;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+  height:2px;
+  float: left;
+  background:#2187e7 ;
+}
+.SAMSUNG{
+  width:69%;
+  animation: SAMSUNG 2s;
+}
+.iPHONE{
+  width:85%;
+  animation: iPHONE 2s;
+}
+.HUAWEI{
+  width:90%;
+  animation: HUAWEI 2s;
+}
+@keyframes SAMSUNG{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 69%;
+  }
+}
+@keyframes HUAWEI{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes iPHONE{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+.SAMSUNG p:nth-child(1){
+  font-size: 20px;
+  font-family: impact;
+  color: #735fe6;
+}
+.iPHONE p:nth-child(1){
+  font-size: 20px;
+  font-family: impact;
+  color: #735fe6;
+}
+.HUAWEI p:nth-child(1){
+  font-size: 20px;
+  font-family: impact;
+  color: #735fe6;
+}
+.p{
+  color: blue;
+  position:relative;
+  font-family: fantasy;
+  font:inherit;
+  color:white;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Design p:nth-child(6){
+  color:black;
+}
+/*----------------------------Sectiunea 2-----------------------*/
+
+.titlu-sectiune h1{
+font-family: courier;
+font-size: 30px;
+color:white;
+position: center;
+}
+.box{
+  width:220px;
+  height:360px;
+  border-radius:5px;
+  box-shadow:2px 6px 30px rgba(0,0,0,0.1);
+  margin:30px;
+  background-color:white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box-img01{
+  background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/snapdragon-chip.jpg);
+}
+.detalii-slide p:nth-child(1){
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.detalii-slide p:nth-child(2){
+  color: darkred;
+  font-family: fantasy;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+.detalii-slide p:nth-child(3){
+  color:white;
+  font-family: calibri;
+  text-align: center;
+  margin: 1px;
+  padding:1px;
+  font-size: 15px;
+}
+.detalii-slide{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-20%);
+  width: 100%;
+}
+ul{
+  position: relative;
+  display: flex;
+}
+.r-level{
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.r-level li{
+  position: relative;
+  margin: 20px 0px;
+}
+.r-bar{
+  color: #4530c3;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.r-bar span{
+  height:3px;
+  float: left;
+  background:red;
+
+}
+.r-bar p{
+  font-family: cursive;
+  color:whitesmoke;
+}
+.iOS{
+  width:85%;
+  height: 3px;
+  animation: iOS 2s;
+}
+.Android{
+  width:35%;
+  height: 3px;
+  animation: Android 2s;
+}
+@keyframes iOS{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+@keyframes Android{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 35%;
+  }
+}
+.texty p{
+  color: white;
+  margin: 1px;
+  padding: 1px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*---------Sectiunea 3-------*/
+#Laptops{
+  height: 160vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/legion.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titlu-sectiune h1{
+font-family: italic;
+color:white;
+font-size: 35px;
+position: center;
+margin: 1px;
+padding: 1px;
+}
+.f-box{
+  width:400px;
+  height:300px;
+  border-radius:5px;
+  box-shadow:2px 6px 30px rgba(0,0,0,0.1);
+  margin:30px;
+  background-color:white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.detalii-slide h3{
+  font-family: fantasy;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  position: center;
+  font-size: 25px;
+}
+.f-box-img01{
+  size: auto;
+  background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/Mac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.f-box-img02{
+  background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/ROG.jpg);
+  size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.detalii-slide1 h3{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.detalii-slide1 p:nth-child(2){
+  color: darkred;
+  font-family: fantasy;
+  text-align: center;
+  margin: 1px;
+  padding: 1px;
+  font-size: 20px;
+}
+.detalii-slide1 p:nth-child(3){
+  color:white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+}
+.detalii-slide2 h3{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.detalii-slide2 p:nth-child(2){
+  color: darkred;
+  font-family: fantasy;
+  text-align: center;
+  margin: 1px;
+  padding: 1px;
+  font-size: 20px;
+}
+.detalii-slide2 p:nth-child(3){
+  color:white;
+  font-family: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+}
+.n-level{
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.n-level li{
+  position: relative;
+  margin: 20px 0px;
+}
+.n-bar{
+  color: #4530c3;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.n-bar span{
+  height:3px;
+  float: left;
+  background:red;
+}
+.n-bar p{
+  font-family: cursive;
+  color:whitesmoke;
+}
+.portabilitate{
+  width:90%;
+  height: 3px;
+  animation: portabilitate 2s;
+}
+.programare{
+  width:70%;
+  height: 3px;
+  animation: programare 2s;
+}
+.Gaming{
+  width: 50%;
+  height: 3px;
+  animation: Gaming 2s;
+}
+.Multimedia{
+  width: 80%;
+  height: 3px;
+  animation: Multimedia 2s;
+}
+@keyframes portabilitate{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes Gaming{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes Multimedia{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes programare{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+/*-----------------------------Sectiunea a 4-a---------------------------*/
+#PC-uri{
+background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/pcg.jpg);
+background-size: cover;
+background-attachment: fixed;
+padding-bottom: 50px;
+padding-top:50px;
+}
+.titlu-sectiune4 h1{
+  font-family: italic;
+color:white;
+font-size: 35px;
+position: center;
+margin: 1px;
+padding: 1px;
+}
+
+
+#PC-uri
+{
+    text-align:center;
+    color:efefef !important;
+    padding-bottom:10px;
+}
+#PC-uri h1
+{
+    text-align:center;
+    color:efefef !important;
+    padding-bottom:10px;
+}
+#PC-uri h1::after
+{
+    content: '';
+    background:#efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.PC-uri
+{
+margin-top:40px;
+}
+.heading{
+  font-family: fantasy;
+  color: darkred;
+  font-size: 25px;
+  margin: 3px;
+  padding: 2px;
+}
+#PC-uri p
+{
+    font-size: 20px;
+    margin-top:20px;
+    color:#ccc;
+}
+.PC-uri .col-md-3:hover{
+    background: #be0000;
+    cursor:pointer;
+    transition:0.7s;
+}
+.consum{
+  width:80%;
+  height: 3px;
+  animation: consum 2s;
+}
+.consum1{
+  width:35%;
+  height: 3px;
+  animation: consum1 2s;
+}
+.frecventa{
+  width:90%;
+  height: 3px;
+  animation: frecventa 2s;
+}
+.frecventa1{
+  width: 70%;
+  height: 3px;
+  animation: frecventa1 2s;
+}
+@keyframes consum{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes consum1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:35%;
+  }
+}
+@keyframes frecventa{
+  0%{
+    width:0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes frecventa1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+.efic{
+  width: 60%;
+  height: 3px;
+  animation: efic 2s;
+}
+.efic1{
+  width: 40%;
+  height: 3px;
+  animation: efic1 2s;
+}
+@keyframes efic{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes efic1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+#Console{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/Xbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+.titlu-sectiune5 h1{
+  font-family: Helvetica;
+  color: white;
+  font-size: 35px;
+  padding: 2px;
+  margin: 2px;
+}
+.fade-img h2:nth-child(1){
+  font-family: Arial;
+  font-style: inherit;
+  color:gray;
+  text-align: center;
+  position: relative;
+  font-size: 60px;
+ margin-left: 180px;
+ padding-left: 90px;
+}
+.fade-img h2:nth-child(2){
+  font-family: sans-serif;
+  font-style: inherit;
+  color:white;
+  text-align: center;
+  position: relative;
+  font-size: 60px;
+  margin-left: 180px;
+  padding-left: 90px;
+}
+.fade-img h2:nth-child(3){
+  font-family: fantasy;
+  font-style: inherit;
+  color:rgb(77, 88, 243);
+  text-align: center;
+  position: relative;
+  font-size: 60px;
+  margin-left: 180px;
+  padding-left: 90px;
+}
+@keyframes slide{
+  0%{
+    background-image:url(../img/ps.jpg);
+  }
+  25%{
+    background-image:url(../img/xbox_series_x.jpg);
+  }
+  50%{
+    background-image:url(../img/ps4_controller.jpg);
+  }
+  75%{
+    background-image:url(../img/Xcontrol.jpg);
+  }
+}
+.l-box{
+  width:800px;
+  height:600px;
+  border-radius:5px;
+  box-shadow:2px 6px 30px rgba(0,0,0,0.1);
+  margin-left:300px;
+  background-color:white;
+  position: relative;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.l-box-img01{
+  size: auto;
+  background-image:url(../img/ps.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: center;
+  animation: slide 10s infinite;
+}
+@keyframes slide{
+  0%{
+    background-image: url(../img/ps.jpg);
+  }
+  25%{
+    background-image: url(../img/xbox_series_x.jpg);
+  }
+  50%{
+    background-image: url(../img/ps4_controller.jpg);
+  }
+  75%{
+    background-image: url(../img/Xcontrol.jpg);
+  }
+}
+.content h2{
+font-family: arial;
+color: gray;
+font-style: inherit;
+font-size: 35px;
+}
+.content p{
+  font-family: sans-serif;
+  font-style: inherit;
+  font-size: 20px;
+}
+.content01 h2{
+  font-family: fantasy;
+  font-style: inherit;
+  color: rgb(77, 88, 243);
+  font-size: 35px;
+}
+.content01 p{
+  font-family: sans-serif;
+  font-style: inherit;
+  font-size: 20px;
+}
+.k-box{
+  width:800px;
+  height:600px;
+  border-radius:5px;
+  box-shadow:2px 6px 30px rgba(0,0,0,0.1);
+  margin-left:300px;
+  background-color:white;
+  position: relative;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.k-box-img01{
+  size: auto;
+  background-image:url(../img/uncharted_4.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: center;
+}
+.k-box-img02{
+  size: auto;
+  background-image:url(../img/killzone.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: center;
+}
+.k-box-img03{
+  size: auto;
+  background-image:url(../img/forza_horizon_4.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: center;
+}
+.k-box-img04{
+  size: auto;
+  background-image:url(../img/gears_5.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: center;
+}
+.ms1 h2{
+  margin-top: 50px;
+  padding: 30px;
+  font-family: Arial;
+  font-style: inherit;
+  font-size: 40px;
+  color: rgb(77, 88, 243);
+}
+.ms2 h2{
+  margin-top: 50px;
+  padding: 30px;
+  font-family: Arial;
+  font-style: inherit;
+  font-size: 40px;
+  color: gray;
+}
+.s-img o{
+  font-family:sans-serif;
+  font-style: inherit;
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 4px;
+  padding: 4px;
+}
+
+@media only screen and (max-width: 768px){
+  ul.derivata{
+    display: block;
+    position: relative;
+  }
+  ul.derivata01{
+    display: block;
+    position: relative;
+  }
+  .logo{
+    display: none;
+  }
+body{
+    background-color: soft red;
+}
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+*{
+    box-sizing: border-box; 
+}
+.main{
+  background-attachment: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/iph.jpg);
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.menu{
+    display:block;
+}
+.menu a{
+    color:white;
+    margin:0px 16px;
+    font-family:myriad pro;
+    font-size:16px;
+}
+.sign-in{
+width:60px ;
+height:25px ;
+border-radius:10px ;
+border:1px solid grey;
+color: dimgrey;
+justify-content: center;
+    font-family: calibri;
+    font-weight: 700;
+    align-items:center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.sign-in:hover{
+    background-color: orangered;
+    color:solid red;
+    transition:all ease 0.3s;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 60px;
+    display: flex;
+}
+.user{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    position: absolute;
+    background-color: crimson;
+    left: 20px;
+    bottom: 20px;
+}* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:yellow;
+  font-size: 15px;
+  padding: 6px 8px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.s-heading{
+  font-weight: bold;
+  font-size: 14px;
+  flex-direction: column;
+  text-decoration-color: red;
+}
+.s-heading p:nth-child(1) {
+  font-family: sans-serif;
+  font: inherit;
+  font-weight: bold;
+  color: red;
+  width: 40%;
+  font-size: 20px;
+  margin: 8px;
+}
+.s-heading p:nth-child(2) {
+  font-family: fantasy;
+  width: 40%;
+  font-weight: bold;
+  color: darkred;
+  margin: 8px;
+  font-size: 18px;
+
+}
+.s-heading{
+  margin: 15px 0px 15px 0px;
+}
+.text01 p{
+  font-family:sans-serif ;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px;
+}
+p{
+  font-family: fantasy;
+  font:inherit;
+  color:white;
+  margin: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}*
+.s-container{
+  flex-wrap: wrap;
+}
+.s-icon{
+  margin:8px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #313131;
+}
+.a-button{
+  width: 120px;
+  height: 35px;
+  margin:2px;
+  padding:10px;
+  border: none;
+  outline:none;
+  border-radius:20px;
+  color:rgb(12, 1, 1);
+  border:1px solid #4530c3;
+}
+.level{
+  width: 160px;
+  margin: 25px auto;
+  color: white;
+}
+.level li{
+  margin: 8px 0;
+}
+.bar{
+  color: #4530c3;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+  height:2px;
+  float: left;
+  background:#2187e7 ;
+}
+.SAMSUNG{
+  width:69%;
+  animation: SAMSUNG 2s;
+}
+.iPHONE{
+  width:85%;
+  animation: iPHONE 2s;
+}
+.HUAWEI{
+  width:90%;
+  animation: HUAWEI 2s;
+}
+@keyframes SAMSUNG{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 69%;
+  }
+}
+@keyframes HUAWEI{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes iPHONE{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+.SAMSUNG p:nth-child(1){
+  font-size: 20px;
+  font-family: impact;
+  color: #735fe6;
+}
+.iPHONE p:nth-child(1){
+  font-size: 20px;
+  font-family: impact;
+  color: #735fe6;
+}
+.HUAWEI p:nth-child(1){
+  font-size: 20px;
+  font-family: impact;
+  color: #735fe6;
+}
+.p{
+  color: blue;
+  position:relative;
+  font-family: fantasy;
+  font:inherit;
+  color:white;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Design p:nth-child(6){
+  color:black;
+}
+/*----------------------------Sectiunea 2-----------------------*/
+
+.titlu-sectiune h1{
+font-family: courier;
+font-size: 30px;
+color:white;
+}
+.box{
+  width:260px;
+  height:200px;
+  display: block;
+}
+.box-img01{
+  background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/snapdragon-chip.jpg);
+}
+.detalii-slide p:nth-child(1){
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+.detalii-slide p:nth-child(2){
+  color: darkred;
+  font-family: fantasy;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+.detalii-slide p:nth-child(3){
+  color:white;
+  font-family: calibri;
+  text-align: center;
+  margin: 1px;
+  padding:1px;
+  font-size: 12px;
+}
+.detalii-slide{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-20%);
+  width: 100%;
+}
+ul{
+  position: absolute;
+}
+.r-level{
+  width: 160px;
+  margin: 25px auto;
+  color: white;
+}
+.r-level li{
+  position: relative;
+  margin: 8px 0px;
+}
+.r-bar{
+  color: #4530c3;
+  display: block;
+  height: 3px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.r-bar span{
+  height:3px;
+  float: left;
+  background:red;
+
+}
+.r-bar p{
+  font-family: cursive;
+  color:whitesmoke;
+}
+.iOS{
+  width:85%;
+  height: 3px;
+  animation: iOS 2s;
+}
+.Android{
+  width:35%;
+  height: 3px;
+  animation: Android 2s;
+}
+@keyframes iOS{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+@keyframes Android{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 35%;
+  }
+}
+.texty p{
+  color: white;
+  margin: 1px;
+  padding: 1px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+.texty p{
+  font-size: 14px;
+}
+/*---------Sectiunea 3-------*/
+#Laptops{
+  background-attachment: fixed;
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/legion.jpg);
+  background-position:bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.titlu-sectiune h1{
+font: italic;
+color:white;
+font-size: 20px;
+margin: 1px;
+padding: 1px;
+}
+.f-box{
+  width:300px;
+  height:200px;
+  position: center;
+}
+.detalii-slide h3{
+  font-family: fantasy;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  position: center;
+  font-size: 16px;
+}
+.f-box-img01{
+  size: auto;
+  background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/Mac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.f-box-img02{
+  background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/ROG.jpg);
+  size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.detalii-slide1 h3{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.detalii-slide1 p:nth-child(2){
+  color: darkred;
+  font-family: fantasy;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.detalii-slide1 p:nth-child(3){
+  color:white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.detalii-slide2 h3{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.detalii-slide2 p:nth-child(2){
+  color: darkred;
+  font-family: fantasy;
+  text-align: center;
+  margin: 1px;
+  padding: 1px;
+  font-size: 12px;
+}
+.detalii-slide2 p:nth-child(3){
+  color:white;
+  font-family: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.n-level{
+  width: 160px;
+  margin: 0px 6px 30px 20px;
+  color: white;
+  display: block;
+  position: center;
+}
+.n-level li{
+  display: block;
+  margin: 0px;
+  position: center;
+}
+.n-bar{
+  display: block;
+  position: center;
+}
+.n-bar span{
+  height:3px;
+  float: left;
+  background:red;
+}
+.n-bar p{
+  font-family: cursive;
+  color:whitesmoke;
+}
+.portabilitate{
+  width:90%;
+  height: 3px;
+  animation: portabilitate 2s;
+}
+.programare{
+  width:70%;
+  height: 3px;
+  animation: programare 2s;
+}
+.Gaming{
+  width: 50%;
+  height: 3px;
+  animation: Gaming 2s;
+}
+.Multimedia{
+  width: 80%;
+  height: 3px;
+  animation: Multimedia 2s;
+}
+@keyframes portabilitate{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes Gaming{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes Multimedia{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes programare{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+
+/*-----------------------------Sectiunea a 4-a---------------------------*/
+#PC-uri{
+background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/pcg.jpg);
+background-size: cover;
+background-attachment: fixed;
+padding-bottom: 50px;
+padding-top:50px;
+}
+.titlu-sectiune4 h1{
+  font-family: italic;
+color:white;
+font-size: 20px;
+position: center;
+margin: 1px;
+padding: 1px;
+}
+
+
+#PC-uri
+{
+    color:efefef !important;
+    padding-bottom:10px;
+}
+#PC-uri h1
+{
+    color:efefef !important;
+    padding-bottom:10px;
+}
+#PC-uri h1::after
+{
+    content: '';
+    background:#efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.PC-uri
+{
+margin-top:8px;
+}
+.heading{
+  font-family: fantasy;
+  color: darkred;
+  font-size: 18px;
+  margin: 1px;
+  padding: 1px;
+}
+#PC-uri p
+{
+    font-size: 14px;
+    margin-top:8px;
+    color:#ccc;
+}
+.PC-uri .col-md-3:hover{
+    background: #be0000;
+    cursor:pointer;
+    transition:0.7s;
+}
+.consum{
+  width:80%;
+  height: 3px;
+  animation: consum 2s;
+}
+.consum1{
+  width:35%;
+  height: 3px;
+  animation: consum1 2s;
+}
+.frecventa{
+  width:90%;
+  height: 3px;
+  animation: frecventa 2s;
+}
+.frecventa1{
+  width: 70%;
+  height: 3px;
+  animation: frecventa1 2s;
+}
+@keyframes consum{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes consum1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:35%;
+  }
+}
+@keyframes frecventa{
+  0%{
+    width:0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes frecventa1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+.efic{
+  width: 60%;
+  height: 3px;
+  animation: efic 2s;
+}
+.efic1{
+  width: 40%;
+  height: 3px;
+  animation: efic1 2s;
+}
+@keyframes efic{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes efic1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+#Console{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/Xbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+.titlu-sectiune5 h1{
+  font-family: Helvetica;
+  color: white;
+  font-size: 35px;
+  padding: 2px;
+  margin: 2px;
+}
+.fade-img h2:nth-child(1){
+  font-family: Arial;
+  font-style: inherit;
+  color:gray;
+  position: relative;
+  font-size: 20px;
+ margin-left: 30px;
+ padding-left: 15px;
+}
+.fade-img h2:nth-child(2){
+  font-family: sans-serif;
+  font-style: inherit;
+  color:white;
+  position: relative;
+  font-size: 20px;
+  margin-left: 30px;
+  padding-left: 15px;
+}
+.fade-img h2:nth-child(3){
+  font-family: fantasy;
+  font-style: inherit;
+  color:rgb(77, 88, 243);
+  position: relative;
+  font-size: 20px;
+  margin-left: 30px;
+  padding-left: 15px;
+}
+@keyframes slide{
+  0%{
+    background-image:url(../img/ps.jpg);
+  }
+  25%{
+    background-image:url(../img/xbox_series_x.jpg);
+  }
+  50%{
+    background-image:url(../img/ps4_controller.jpg);
+  }
+  75%{
+    background-image:url(../img/Xcontrol.jpg);
+  }
+}
+.l-box{
+  width:200px;
+  height:200px;
+  border-radius:5px;
+  box-shadow:2px 6px 30px rgba(0,0,0,0.1);
+  margin-left:15px;
+  background-color:white;
+  position: relative;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.l-box-img01{
+  size: auto;
+  background-image:url(../img/ps.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  animation: slide 10s infinite;
+}
+@keyframes slide{
+  0%{
+    background-image: url(../img/ps.jpg);
+  }
+  25%{
+    background-image: url(../img/xbox_series_x.jpg);
+  }
+  50%{
+    background-image: url(../img/ps4_controller.jpg);
+  }
+  75%{
+    background-image: url(../img/Xcontrol.jpg);
+  }
+}
+.content h2{
+font-family: arial;
+color: gray;
+font-style: inherit;
+font-size: 18px;
+}
+.content p{
+  font-family: sans-serif;
+  font-style: inherit;
+  font-size: 14px;
+}
+.content01 h2{
+  font-family: fantasy;
+  font-style: inherit;
+  color: rgb(77, 88, 243);
+  font-size: 18px;
+}
+.content01 p{
+  font-family: sans-serif;
+  font-style: inherit;
+  font-size: 14px;
+}
+.k-box{
+  width:200px;
+  height:200px;
+  border-radius:5px;
+  box-shadow:2px 6px 30px rgba(0,0,0,0.1);
+  margin-left:15px;
+  background-color:white;
+  position: relative;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.k-box-img01{
+  size: 5vh;
+  background-image:url(../img/uncharted_4.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.k-box-img02{
+  size: 5vh;
+  background-image:url(../img/killzone.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.k-box-img03{
+  size: 5vh;
+  background-image:url(../img/forza_horizon_4.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.k-box-img04{
+  size: 5vh;
+  background-image:url(../img/gears_5.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ms1 h2{
+  margin-top: 25px;
+  padding: 20px;
+  font-family: Arial;
+  font-style: inherit;
+  font-size: 20px;
+  color: rgb(77, 88, 243);
+}
+.ms2 h2{
+  margin-top: 25px;
+  padding: 20px;
+  font-family: Arial;
+  font-style: inherit;
+  font-size: 20px;
+  color: gray;
+}
+.s-img o{
+  font-family:sans-serif;
+  font-style: inherit;
+  color: whitesmoke;
+  font-size: 14px;
+  margin: 4px;
+  padding: 4px;
+}
+}
